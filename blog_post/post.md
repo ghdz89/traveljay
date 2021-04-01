@@ -149,7 +149,7 @@ We use `mapboxgl.Map()` to create a new map instance and then pass in an object 
 
 At this point, you should be able to preview your map on your app. Navigate to localhost:3000 (or whatever port you specified earlier) and check it out!
 
-![Screenshot1](../img/ss1-tj.png)
+![Screenshot1](./ss1-tj.png)
 
 **8. Return location data from the Mapbox Geocoding API**
 
@@ -199,7 +199,7 @@ A few important things are happening here:
 
 This code won't place a marker on your app – yet! But you should be able to use the form input and view the results in your browser's console. Navigate over to localhost:3000 and try it out!
 
-![Screenshot2](../img/ss2-tj.png)
+![Screenshot2](./ss2-tj.png)
 
 **9. Add markers to your map based on user input**
 
@@ -238,7 +238,7 @@ Let's walk through what this code does:
 
 Try it out at localhost:3000 – you should now be able to add markers to the map!
 
-![Screenshot3](../img/ss3-tj.png)
+![Screenshot3](./ss3-tj.png)
 
 If you'd like to prevent endpoint calls with empty queries (i.e., no user input), you can nest your current code in the following if/else statement. I found this to be a quick and easy way of limiting invalid calls to the API endpoint, which is especially useful in other situations where there are limits on the number of requests that can be made to an endpoint.
 
